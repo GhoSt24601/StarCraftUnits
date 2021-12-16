@@ -4,11 +4,89 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/kerricong"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/kerricong_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".karax"
+            android:exported="false" />
+        <activity
+            android:name=".balius"
+            android:exported="false" />
+        <activity
+            android:name=".karass"
+            android:exported="false" />
+        <activity
+            android:name=".duran"
+            android:exported="false" />
+        <activity
+            android:name=".duke"
+            android:exported="false" />
+        <activity
+            android:name=".gary"
+            android:exported="false" />
+        <activity
+            android:name=".stetmann"
+            android:exported="false" />
+        <activity
+            android:name=".hyperion"
+            android:exported="false" />
+        <activity
+            android:name=".tassadar"
+            android:exported="false" />
+        <activity
+            android:name=".urun"
+            android:exported="false" />
+        <activity
+            android:name=".dehaka"
+            android:exported="false" />
+        <activity
+            android:name=".selendis"
+            android:exported="false" />
+        <activity
+            android:name=".mohandar"
+            android:exported="false" />
+        <activity
+            android:name=".zagara"
+            android:exported="false" />
+        <activity
+            android:name=".swann"
+            android:exported="false" />
+        <activity
+            android:name=".alarak"
+            android:exported="false" />
+        <activity
+            android:name=".fenix"
+            android:exported="false" />
+        <activity
+            android:name=".vorazun"
+            android:exported="false" />
+        <activity
+            android:name=".artanis"
+            android:exported="false" />
+        <activity
+            android:name=".stukov"
+            android:exported="false" />
+        <activity
+            android:name=".tosh"
+            android:exported="false" />
+        <activity
+            android:name=".tychus"
+            android:exported="false" />
+        <activity
+            android:name=".zeratul"
+            android:exported="false" />
+        <activity
+            android:name=".raynor"
+            android:exported="false" />
+        <activity
+            android:name=".nova"
+            android:exported="false" />
+        <activity
+            android:name=".kerrigan"
+            android:exported="false" />
         <activity
             android:name=".Units"
             android:exported="false" />
