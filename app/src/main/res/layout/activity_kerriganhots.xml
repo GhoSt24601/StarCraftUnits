@@ -6,6 +6,6 @@
     android:layout_height="fill_parent"
     android:gravity="center|fill"
     android:background="@drawable/fon815"
-    tools:context=".balius">
+    tools:context=".kerriganhots">
 
 </androidx.constraintlayout.widget.ConstraintLayout>

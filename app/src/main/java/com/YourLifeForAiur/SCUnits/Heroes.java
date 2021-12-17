@@ -87,6 +87,7 @@ public class Heroes extends AppCompatActivity implements View.OnClickListener{
                 Intent ray;
                 ray = new Intent(this, raynor.class);
                 startActivity(ray);
+                break;
             case R.id.bzer:
                 Intent zer;
                 zer = new Intent(this, zeratul.class);
@@ -96,6 +97,7 @@ public class Heroes extends AppCompatActivity implements View.OnClickListener{
                 Intent tyc;
                 tyc = new Intent(this, tychus.class);
                 startActivity(tyc);
+                break;
             case R.id.btosh:
                 Intent tosh;
                 tosh = new Intent(this, tosh.class);
@@ -135,6 +137,11 @@ public class Heroes extends AppCompatActivity implements View.OnClickListener{
                 Intent zag;
                 zag = new Intent(this, zagara.class);
                 startActivity(zag);
+                break;
+            case R.id.bmoh:
+                Intent moh;
+                moh = new Intent(this, mohandar.class);
+                startActivity(moh);
                 break;
             case R.id.bsel:
                 Intent sel;
