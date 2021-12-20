@@ -7,69 +7,47 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class kerrigan extends AppCompatActivity implements View.OnClickListener {
-
+public class kerrigan extends AppCompatActivity{
+    Intent kerrigan;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_kerrigan);
-        Button bkerrsc1 = (Button) findViewById(R.id.bkerrsc1);
-        bkerrsc1.setOnClickListener(this);
-        Button bkerrisc1 = (Button) findViewById(R.id.bkerrisc1);
-        bkerrisc1.setOnClickListener(this);
-        Button bkerrwol = (Button) findViewById(R.id.bkerrwol);
-        bkerrwol.setOnClickListener(this);
-        Button bkerrgh = (Button) findViewById(R.id.bkerrgh);
-        bkerrgh.setOnClickListener(this);
-        Button bkerrhots = (Button) findViewById(R.id.bkerrhots);
-        bkerrhots.setOnClickListener(this);
-        Button bkerrlotv = (Button) findViewById(R.id.bkerrlotv);
-        bkerrlotv.setOnClickListener(this);
-        Button bkerrxel = (Button) findViewById(R.id.bkerrxel);
-        bkerrxel.setOnClickListener(this);
     }
 
-    @Override
-    public void onClick(View view) {
-
+    public void actkerr (View view){
         switch (view.getId()) {
-
             case R.id.bkerrsc1:
-                Intent kerrsc1;
-                kerrsc1 = new Intent(this, kerrigansc1.class);
-                startActivity(kerrsc1);
+                kerrigan = new Intent(this, kerrigansc1.class);
+                startActivity(kerrigan);
                 break;
             case R.id.bkerrisc1:
-                Intent kerrisc1;
-                kerrisc1 = new Intent(this, korolevasc1.class);
-                startActivity(kerrisc1);
+                kerrigan = new Intent(this, korolevasc1.class);
+                startActivity(kerrigan);
                 break;
             case R.id.bkerrwol:
-                Intent kerrwol;
-                kerrwol = new Intent(this, korolevawol.class);
-                startActivity(kerrwol);
+                kerrigan = new Intent(this, korolevawol.class);
+                startActivity(kerrigan);
                 break;
             case R.id.bkerrgh:
-                Intent kerrgh;
-                kerrgh = new Intent(this, kerriganhots.class);
-                startActivity(kerrgh);
+                kerrigan = new Intent(this, kerriganhots.class);
+                startActivity(kerrigan);
+                break;
+            case R.id.bkerrgh2:
+                kerrigan = new Intent(this, kerriganhots2.class);
+                startActivity(kerrigan);
                 break;
             case R.id.bkerrhots:
-                Intent kerrhots;
-                kerrhots = new Intent(this, korolevahots.class);
-                startActivity(kerrhots);
+                kerrigan = new Intent(this, korolevahots.class);
+                startActivity(kerrigan);
                 break;
             case R.id.bkerrlotv:
-                Intent kerrilotv;
-                kerrilotv = new Intent(this, korolevalotv.class);
-                startActivity(kerrilotv);
+                kerrigan = new Intent(this, korolevalotv.class);
+                startActivity(kerrigan);
                 break;
             case R.id.bkerrxel:
-                Intent kerrxel;
-                kerrxel = new Intent(this, xelnaga.class);
-                startActivity(kerrxel);
-                break;
-            default:
+                kerrigan = new Intent(this, xelnaga.class);
+                startActivity(kerrigan);
                 break;
         }
     }

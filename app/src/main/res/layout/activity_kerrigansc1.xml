@@ -7,290 +7,296 @@
     android:gravity="center|fill"
     android:background="@drawable/fon815"
     tools:context=".kerrigansc1">
+
     <ScrollView
         android:scrollbarThumbVertical="@drawable/scroll2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/eurostileextendedmedium"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="7"
+            android:shadowDy="6"
+            android:gravity="center"
+            android:shadowRadius="1"
+            android:text="ФРАЗЫ"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="normal"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/bkerrbw1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="playSound"
+            android:scaleType="fitStart"
+            android:src="@drawable/kerrbw1sel"
+            app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <ImageView
+
+            android:id="@+id/bkerrbw2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="playSound"
+            android:scaleType="fitStart"
+            android:src="@drawable/kerrbw1sel"
+            app:layout_constraintEnd_toStartOf="@+id/bkerrbw3"
+            app:layout_constraintStart_toEndOf="@+id/bkerrbw1"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <ImageView
+            android:id="@+id/bkerrbw3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="playSound"
+            android:scaleType="fitStart"
+            android:src="@drawable/kerrbw1sel"
+            app:layout_constraintEnd_toStartOf="@+id/bkerrbw4"
+            app:layout_constraintStart_toEndOf="@+id/bkerrbw2"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+        <ImageView
+            android:id="@+id/bkerrbw4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="playSound"
+            android:scaleType="fitStart"
+            android:src="@drawable/kerrbw1sel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/bkerrbw3"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+        </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bkerrbw5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="playSound"
+            android:scaleType="fitStart"
+            android:src="@drawable/kerrbw1sel"
+            app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pnull"
+            />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pnull"
+            />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pnull"
+            />
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
-    <Button
-        android:id="@+id/bkerrbw1"
-        android:layout_width="fill_parent"
-        android:layout_height="68dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="@drawable/shape_selector"
-        android:fontFamily="@font/eurostileextendedmedium"
-        android:onClick="kerrbw1"
-        android:shadowColor="@color/text_shadow"
-        android:shadowDx="7"
-        android:shadowDy="6"
-        android:shadowRadius="1"
-        android:text="Все шутки шутишь"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:rippleColor="#00FF0000"
-        tools:ignore="OnClick" />
-
-    <Button
-        android:id="@+id/bkerrbw2"
-        android:layout_width="fill_parent"
-        android:layout_height="68dp"
-        android:layout_marginStart="0dp"
-        android:layout_marginEnd="0dp"
-        android:background="@drawable/shape_selector"
-        android:fontFamily="@font/eurostileextendedmedium"
-        android:onClick="kerrbw2"
-        android:shadowColor="@color/text_shadow"
-        android:shadowDx="7"
-        android:shadowDy="6"
-        android:shadowRadius="1"
-        android:text="Чтобы читать твои"
-        android:textColor="#FFFFFF"
-        android:textSize="18sp"
-        android:textStyle="normal"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-        tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw3"
+        android:orientation="horizontal">
+        <TextView
             android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
+            android:layout_height="wrap_content"
             android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw3"
             android:shadowColor="@color/text_shadow"
             android:shadowDx="7"
             android:shadowDy="6"
+            android:gravity="center"
             android:shadowRadius="1"
-            android:text="Любишь надоедать"
+            android:text="НАЖАТИЕ"
             android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw4"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw4"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="У тебя может и есть"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw5"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw5"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="А вот у меня есть"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw6"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw6"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="Лейтенант Керриган"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw7"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw7"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="Ну что на этот раз"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw8"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw8"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="Ну же, я жду"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw9"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw9"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="Я готова"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw10"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw10"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="Поняла"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw11"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw11"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="Я тоже об этом"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw12"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw12"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="С удовольствием"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
-        <Button
-            android:id="@+id/bkerrbw13"
-            android:layout_width="fill_parent"
-            android:layout_height="68dp"
-            android:layout_marginStart="0dp"
-            android:layout_marginEnd="0dp"
-            android:background="@drawable/shape_selector"
-            android:fontFamily="@font/eurostileextendedmedium"
-            android:onClick="kerrbw13"
-            android:shadowColor="@color/text_shadow"
-            android:shadowDx="7"
-            android:shadowDy="6"
-            android:shadowRadius="1"
-            android:text="Я все слышала"
-            android:textColor="#FFFFFF"
-            android:textSize="18sp"
-            android:textStyle="normal"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
-            tools:ignore="OnClick" />
+            android:textSize="22sp"
+            android:textStyle="normal"/>
     </LinearLayout>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bkerrbw6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/kerrbw1sel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/bkerrbw7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/kerrbw1sel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw8"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw6"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw3"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/bkerrbw8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/kerrbw1sel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw7"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw4"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            <ImageView
+            android:id="@+id/bkerrbw9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="playSound"
+            android:scaleType="fitStart"
+            android:src="@drawable/kerrbw1sel"
+            app:layout_constraintEnd_toStartOf="@+id/bkerrbw10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bkerrbw5"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/eurostileextendedmedium"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="7"
+            android:shadowDy="6"
+            android:gravity="center"
+            android:shadowRadius="1"
+            android:text="ДЕЙСТВИЕ"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/bkerrbw10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/kerrbw1sel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw11"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw9"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw6"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/bkerrbw11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/kerrbw1sel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw12"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw10"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw7"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            <ImageView
+                android:id="@+id/bkerrbw12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/kerrbw1sel"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw11"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw8"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            <ImageView
+            android:id="@+id/bkerrbw13"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:onClick="playSound"
+            android:scaleType="fitStart"
+            android:src="@drawable/kerrbw1sel"
+            tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+
+</LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -7,5 +7,253 @@
     android:gravity="center|fill"
     android:background="@drawable/fon815"
     tools:context=".korolevasc1">
+    <ScrollView
+        android:scrollbarThumbVertical="@drawable/scroll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/eurostileextendedmedium"
+            android:shadowColor="@color/text_shadow"
+            android:shadowDx="7"
+            android:shadowDy="6"
+            android:gravity="center"
+            android:shadowRadius="1"
+            android:text="ФРАЗЫ"
+            android:textColor="#FFFFFF"
+            android:textSize="22sp"
+            android:textStyle="normal"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
+        <ImageView
+        android:id="@+id/bkorbw1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw3"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw1"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw4"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw2"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw3"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/eurostileextendedmedium"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="7"
+                android:shadowDy="6"
+                android:gravity="center"
+                android:shadowRadius="1"
+                android:text="НАЖАТИЕ"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+        android:id="@+id/bkorbw5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw1"
+        tools:ignore="OnClick,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw7"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw5"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw2"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw8"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw6"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw3"
+        tools:ignore="OnClick,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw7"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw4"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/eurostileextendedmedium"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="7"
+                android:shadowDy="6"
+                android:gravity="center"
+                android:shadowRadius="1"
+                android:text="ДЕЙСТВИЕ"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="normal"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <ImageView
+        android:id="@+id/bkorbw9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw5"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw11"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw9"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw6"
+        tools:ignore="OnClick,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toStartOf="@+id/bkorbw12"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw10"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw7"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/bkorbw12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:onClick="playSound"
+        android:scaleType="fitStart"
+        android:src="@drawable/korbwsel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/bkorbw11"
+        app:layout_constraintTop_toBottomOf="@+id/bkorbw8"
+        tools:ignore="OnClick,SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

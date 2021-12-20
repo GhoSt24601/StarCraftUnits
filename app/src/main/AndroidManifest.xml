@@ -4,11 +4,14 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/kerricon"
+        android:icon="@mipmap/kerr1212"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/kerricon_round"
+        android:roundIcon="@mipmap/kerr1212_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
+        <activity
+            android:name=".kerriganhots2"
+            android:exported="false" />
         <activity
             android:name=".xelnaga"
             android:exported="false" />
