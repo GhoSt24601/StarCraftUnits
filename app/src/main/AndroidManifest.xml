@@ -10,6 +10,51 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".dehakalotv"
+            android:exported="false" />
+        <activity
+            android:name=".dehakahots"
+            android:exported="false" />
+        <activity
+            android:name=".fenixlotv"
+            android:exported="false" />
+        <activity
+            android:name=".fenixd"
+            android:exported="false" />
+        <activity
+            android:name=".fenixz"
+            android:exported="false" />
+        <activity
+            android:name=".artanislotv"
+            android:exported="false" />
+        <activity
+            android:name=".artaniswol"
+            android:exported="false" />
+        <activity
+            android:name=".artanisbw"
+            android:exported="false" />
+        <activity
+            android:name=".tychuslotv"
+            android:exported="false" />
+        <activity
+            android:name=".tychuswol"
+            android:exported="false" />
+        <activity
+            android:name=".novalotv"
+            android:exported="false" />
+        <activity
+            android:name=".novawol"
+            android:exported="false" />
+        <activity
+            android:name=".zeratullotv"
+            android:exported="false" />
+        <activity
+            android:name=".zeratulwol"
+            android:exported="false" />
+        <activity
+            android:name=".zeratulbw"
+            android:exported="false" />
+        <activity
             android:name=".raynorwol"
             android:exported="false" />
         <activity
