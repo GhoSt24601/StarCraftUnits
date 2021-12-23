@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".raynorwol"
+            android:exported="false" />
+        <activity
+            android:name=".raynorbw"
+            android:exported="false" />
+        <activity
             android:name=".kerriganhots2"
             android:exported="false" />
         <activity

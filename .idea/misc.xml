@@ -3,8 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/alarsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/artabwsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/artalotvsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/artawolsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/balsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/dehhotssel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/dehlotvsel.xml" value="0.5527777777777778" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/duksel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/dursel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/fendsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/fenlotvsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/fenzsel.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/fon9.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/garysel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/hornersel.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/ic_launcher_background.xml" value="0.3828125" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/karaxsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/karsel.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/kerrbw1sel.xml" value="0.5703125" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/kerrhots2sel.xml" value="0.5703125" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/kerrhotssel.xml" value="0.5703125" />
@@ -14,10 +30,31 @@
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/korbwsel.xml" value="0.5703125" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/korhotssel.xml" value="0.5703125" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/korwolsel.xml" value="0.5703125" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/mirasel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/mohsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/novlotvsel.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/novwolsek.xml" value="0.5138888888888888" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/novwolsel.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/raybwsel.xml" value="0.5697916666666667" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/raysel.xml" value="0.37222222222222223" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/scrollbar.xml" value="0.5703125" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/selsel.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/shape_selector.xml" value="0.5703125" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/stetsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/stuksel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/swasel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/tassel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/toshsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/tyclotvsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/tycwolsel.xml" value="0.37222222222222223" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/urunsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/vorsel.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/xelnagasel.xml" value="0.5703125" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/z000815.xml" value="0.5703125" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/zagsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/zerbwsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/zerlotvsel.xml" value="0.23333333333333334" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/drawable/zerwolsel.xml" value="0.23333333333333334" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/font/eurostile.xml" value="0.396875" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_alarak.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_artanis.xml" value="0.4533514492753623" />
@@ -27,22 +64,24 @@
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_duran.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_fenix.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_gary.xml" value="0.4533514492753623" />
-        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_heroes.xml" value="0.33" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_heroes.xml" value="0.18" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_hyperion.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_karass.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_karax.xml" value="0.4533514492753623" />
-        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_kerrigan.xml" value="0.33" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_kerrigan.xml" value="0.2" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_kerriganhots.xml" value="0.33" />
-        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_kerriganhots2.xml" value="0.1" />
-        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_kerrigansc1.xml" value="0.33" />
-        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_korolevahots.xml" value="0.1" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_kerriganhots2.xml" value="0.33" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_kerrigansc1.xml" value="0.2" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_korolevahots.xml" value="0.18" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_korolevalotv.xml" value="0.1" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_korolevasc1.xml" value="0.33" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_korolevawol.xml" value="0.33" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_mohandar.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_nova.xml" value="0.4533514492753623" />
-        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_raynor.xml" value="0.4533514492753623" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_raynor.xml" value="0.33" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_raynorbw.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_raynorwol.xml" value="0.1" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_selendis.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_stetmann.xml" value="0.4533514492753623" />
         <entry key="..\:/Users/Your life for Aiur/AndroidStudioProjects/StarCraftUnits/app/src/main/res/layout/activity_stukov.xml" value="0.22" />

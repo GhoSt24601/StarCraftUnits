@@ -16,7 +16,7 @@ public class kerriganhots extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kerrigansc1);
+        setContentView(R.layout.activity_kerriganhots);
 
 
 

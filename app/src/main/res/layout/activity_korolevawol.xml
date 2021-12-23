@@ -9,40 +9,48 @@
     tools:context=".korolevawol">
 
     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
         android:scrollbarThumbVertical="@drawable/scroll2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
             android:orientation="vertical">
+
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
                     android:shadowColor="@color/text_shadow"
                     android:shadowDx="7"
                     android:shadowDy="6"
-                    android:gravity="center"
                     android:shadowRadius="1"
                     android:text="ФРАЗЫ"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:id="@+id/bkorwol1"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -56,7 +64,7 @@
                 <ImageView
                     android:id="@+id/bkorwol2"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -70,7 +78,7 @@
                 <ImageView
                     android:id="@+id/bkorwol3"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -84,7 +92,7 @@
                 <ImageView
                     android:id="@+id/bkorwol4"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -98,14 +106,14 @@
 
             <LinearLayout
 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/bkorwol5"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -115,10 +123,11 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol6"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -128,10 +137,11 @@
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol7"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -145,7 +155,7 @@
                 <ImageView
                     android:id="@+id/bkorwol8"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -158,14 +168,14 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/bkorwol9"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -175,18 +185,21 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
@@ -194,32 +207,36 @@
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
                     android:shadowColor="@color/text_shadow"
                     android:shadowDx="7"
                     android:shadowDy="6"
-                    android:gravity="center"
                     android:shadowRadius="1"
                     android:text="НАЖАТИЕ"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:id="@+id/bkorwol10"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -229,10 +246,11 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol11"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -242,10 +260,11 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol12"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -255,10 +274,11 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol13"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -269,33 +289,36 @@
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
                     android:shadowColor="@color/text_shadow"
                     android:shadowDx="7"
                     android:shadowDy="6"
-                    android:gravity="center"
                     android:shadowRadius="1"
                     android:text="ДЕЙСТВИЕ"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:id="@+id/bkorwol14"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -309,7 +332,7 @@
                 <ImageView
                     android:id="@+id/bkorwol15"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -323,7 +346,7 @@
                 <ImageView
                     android:id="@+id/bkorwol16"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -337,7 +360,7 @@
                 <ImageView
                     android:id="@+id/bkorwol17"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -349,126 +372,139 @@
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
 
             </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
 
-        <ImageView
-                android:id="@+id/bkorwol18"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:onClick="playSound"
-                android:scaleType="fitStart"
-                android:src="@drawable/korwolsel"
-                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
-                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
-                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
-                tools:ignore="OnClick,SpeakableTextPresentCheck" />
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:src="@drawable/pnull" />
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:src="@drawable/pnull" />
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:src="@drawable/pnull" />
-        </LinearLayout>
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bkorwol18"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/korwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
                     android:shadowColor="@color/text_shadow"
                     android:shadowDx="7"
                     android:shadowDy="6"
-                    android:gravity="center"
                     android:shadowRadius="1"
                     android:text="АТАКА"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <ImageView
-                android:id="@+id/bkorwol19"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:onClick="playSound"
-                android:scaleType="fitStart"
-                android:src="@drawable/korwolsel"
-                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
-                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
-                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
-                tools:ignore="OnClick,SpeakableTextPresentCheck" />
-            <ImageView
-                android:id="@+id/bkorwol20"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:onClick="playSound"
-                android:scaleType="fitStart"
-                android:src="@drawable/korwolsel"
-                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
-                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
-                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
-                tools:ignore="OnClick,SpeakableTextPresentCheck" />
-            <ImageView
-                android:id="@+id/bkorwol21"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:onClick="playSound"
-                android:scaleType="fitStart"
-                android:src="@drawable/korwolsel"
-                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
-                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
-                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
-                tools:ignore="OnClick,SpeakableTextPresentCheck" />
-            <ImageView
-                android:id="@+id/bkorwol22"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:adjustViewBounds="true"
-                android:onClick="playSound"
-                android:scaleType="fitStart"
-                android:src="@drawable/korwolsel"
-                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
-                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
-                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
-                tools:ignore="OnClick,SpeakableTextPresentCheck" />
-        </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bkorwol19"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/korwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bkorwol20"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/korwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bkorwol21"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/korwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bkorwol22"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/korwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:id="@+id/bkorwol23"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -478,10 +514,11 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol24"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -491,12 +528,14 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
@@ -504,32 +543,36 @@
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
                     android:shadowColor="@color/text_shadow"
                     android:shadowDx="7"
                     android:shadowDy="6"
-                    android:gravity="center"
                     android:shadowRadius="1"
                     android:text="ПОМОЩЬ"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:id="@+id/bkorwol25"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -539,10 +582,11 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol26"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -552,12 +596,14 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
@@ -565,32 +611,36 @@
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
                     android:shadowColor="@color/text_shadow"
                     android:shadowDx="7"
                     android:shadowDy="6"
-                    android:gravity="center"
                     android:shadowRadius="1"
                     android:text="ВОЗРОЖДЕНИЯ"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:id="@+id/bkorwol27"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -600,18 +650,21 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
@@ -619,32 +672,36 @@
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <TextView
                     android:layout_width="fill_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
                     android:shadowColor="@color/text_shadow"
                     android:shadowDx="7"
                     android:shadowDy="6"
-                    android:gravity="center"
                     android:shadowRadius="1"
                     android:text="СМЕРТИ"
                     android:textColor="#FFFFFF"
                     android:textSize="22sp"
-                    android:textStyle="normal"/>
+                    android:textStyle="normal" />
             </LinearLayout>
+
             <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
                 android:orientation="horizontal">
+
                 <ImageView
                     android:id="@+id/bkorwol28"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -654,10 +711,11 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:id="@+id/bkorwol29"
                     android:layout_width="0dp"
-                    android:layout_height="wrap_content"
+                    android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:onClick="playSound"
@@ -667,12 +725,14 @@
                     app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
                     app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
                     tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
                     android:src="@drawable/pnull" />
+
                 <ImageView
                     android:layout_width="0dp"
                     android:layout_height="fill_parent"
