@@ -2,8 +2,1102 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|fill"
+    android:background="@drawable/fon815"
     tools:context=".tychuswol">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@drawable/scroll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ФРАЗЫ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw3"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol3"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw4"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol4"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol5"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol6"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol7"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol8"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol9"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol10"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol11"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol12"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol13"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="НАЖАТИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol14"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol15"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol16"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol17"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol18"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol19"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol20"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ДЕЙСТВИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol21"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol22"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol23"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol24"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol25"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol26"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol27"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol28"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol29"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol30"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/btycwol31"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="АТАКА"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol32"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol33"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol34"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol35"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol36"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol37"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol38"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol39"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol40"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol41"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol42"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ПОМОЩЬ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol43"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol44"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/btycwol45"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ВОЗРОЖДЕНИЯ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol46"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol47"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol48"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="СМЕРТИ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol49"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol50"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol51"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol52"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/btycwol53"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol54"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol55"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/btycwol56"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/tycwolsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

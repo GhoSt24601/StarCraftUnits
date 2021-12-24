@@ -8,4 +8,308 @@
     android:background="@drawable/fon815"
     tools:context=".duke">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@drawable/scroll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ФРАЗЫ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bduk1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+
+                    android:id="@+id/bduk2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk3"
+                    app:layout_constraintStart_toEndOf="@+id/bduk"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk3"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk4"
+                    app:layout_constraintStart_toEndOf="@+id/bduk2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk4"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bduk3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bduk5"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="НАЖАТИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bduk6"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk7"
+                    app:layout_constraintStart_toEndOf="@+id/bduk5"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk7"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk8"
+                    app:layout_constraintStart_toEndOf="@+id/bduk6"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk3"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk8"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bduk7"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk4"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk9"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk5"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ДЕЙСТВИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bduk10"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk1"
+                    app:layout_constraintStart_toEndOf="@+id/bduk9"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk6"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk11"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toStartOf="@+id/bduk2"
+                    app:layout_constraintStart_toEndOf="@+id/bduk0"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk7"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk12"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bduk1"
+                    app:layout_constraintTop_toBottomOf="@+id/bduk8"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bduk13"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/duksel"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

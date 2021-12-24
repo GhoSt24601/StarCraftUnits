@@ -2,8 +2,1426 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|fill"
+    android:background="@drawable/fon815"
     tools:context=".novalotv">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@drawable/scroll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ФРАЗЫ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw3"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv3"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw4"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv4"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv5"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv6"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv7"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv8"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv9"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv10"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv11"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv12"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv13"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="НАЖАТИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv14"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv15"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv16"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv17"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv18"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv19"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv20"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv21"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv22"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv23"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ДЕЙСТВИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv24"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv25"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv26"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv27"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv28"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv29"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv30"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv31"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv32"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv33"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv34"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv35"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv36"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv37"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="АТАКА"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv38"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv39"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv40"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv41"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv42"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv43"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ПОМОЩЬ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv44"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ВОЗРОЖДЕНИЯ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv45"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv46"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv47"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv48"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv49"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv50"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv51"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="СМЕРТИ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bnovlotv52"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bnovlotv53"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+            </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:fontFamily="@font/eurostileextendedmedium"
+                android:gravity="center"
+                android:shadowColor="@color/text_shadow"
+                android:shadowDx="7"
+                android:shadowDy="6"
+                android:shadowRadius="1"
+                android:text="ОСТАЛЬНОЕ"
+                android:textColor="#FFFFFF"
+                android:textSize="22sp"
+                android:textStyle="normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/bnovlotv54"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/novlotvsel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            <ImageView
+                android:id="@+id/bnovlotv55"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/novlotvsel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            <ImageView
+                android:id="@+id/bnovlotv56"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/novlotvsel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            <ImageView
+                android:id="@+id/bnovlotv57"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="playSound"
+                android:scaleType="fitStart"
+                android:src="@drawable/novlotvsel"
+                app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/bnovlotv58"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv59"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv60"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv61"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/bnovlotv62"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv63"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv64"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv65"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/bnovlotv66"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv67"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv68"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv69"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:id="@+id/bnovlotv70"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv71"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv72"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+                <ImageView
+                    android:id="@+id/bnovlotv73"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/novlotvsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw7"
+                    app:layout_constraintStart_toEndOf="@+id/bkerrbw5"
+                    app:layout_constraintTop_toBottomOf="@+id/bkerrbw2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
