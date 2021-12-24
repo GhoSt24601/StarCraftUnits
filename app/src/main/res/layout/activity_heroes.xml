@@ -264,7 +264,7 @@
                     android:adjustViewBounds="true"
                     android:onClick="act"
                     android:scaleType="fitStart"
-                    android:src="@drawable/dehhotssel"
+                    android:src="@drawable/dehsel"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
