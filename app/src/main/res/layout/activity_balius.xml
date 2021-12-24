@@ -8,4 +8,231 @@
     android:background="@drawable/fon815"
     tools:context=".balius">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@drawable/scroll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ФРАЗЫ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bbal1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bbal2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+
+                    android:id="@+id/bbal2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bbal3"
+                    app:layout_constraintStart_toEndOf="@+id/bbal1"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bbal3"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bbal4"
+                    app:layout_constraintStart_toEndOf="@+id/bbal2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bbal4"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bbal3"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bbal5"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bbal6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bbal1"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="НАЖАТИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bbal6"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bbal7"
+                    app:layout_constraintStart_toEndOf="@+id/bbal5"
+                    app:layout_constraintTop_toBottomOf="@+id/bbal2"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bbal7"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bbal8"
+                    app:layout_constraintStart_toEndOf="@+id/bbal6"
+                    app:layout_constraintTop_toBottomOf="@+id/bbal3"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bbal8"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/bbal7"
+                    app:layout_constraintTop_toBottomOf="@+id/bbal4"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bbal9"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/balsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bbal10"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bbal5"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+            </LinearLayout>
+
+    
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout><?xml version="1.0" encoding="utf-8"?>

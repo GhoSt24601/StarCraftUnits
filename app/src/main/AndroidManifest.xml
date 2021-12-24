@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".duranzerg"
+            android:exported="false" />
+        <activity
+            android:name=".duranter"
+            android:exported="false" />
+        <activity
             android:name=".dehakalotv"
             android:exported="false" />
         <activity

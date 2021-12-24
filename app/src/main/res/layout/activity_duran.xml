@@ -6,6 +6,49 @@
     android:layout_height="fill_parent"
     android:gravity="center|fill"
     android:background="@drawable/fon815"
-    tools:context=".duran">
+    tools:context=".raynor">
 
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@drawable/scroll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bdurter"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="actdur"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/dursel"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+
+                <ImageView
+                    android:id="@+id/bdurzerg"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="actdur"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/durzergsel"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
