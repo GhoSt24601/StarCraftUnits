@@ -10,6 +10,129 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".tanksc2"
+            android:exported="false" />
+        <activity
+            android:name=".tankbw"
+            android:exported="false" />
+        <activity
+            android:name=".tank"
+            android:exported="false" />
+        <activity
+            android:name=".firebatsc2"
+            android:exported="false" />
+        <activity
+            android:name=".firebatbw"
+            android:exported="false" />
+        <activity
+            android:name=".firebat"
+            android:exported="false" />
+        <activity
+            android:name=".vesselsc2"
+            android:exported="false" />
+        <activity
+            android:name=".vesselbw"
+            android:exported="false" />
+        <activity
+            android:name=".vessel"
+            android:exported="false" />
+        <activity
+            android:name=".marinesc2"
+            android:exported="false" />
+        <activity
+            android:name=".marinebw"
+            android:exported="false" />
+        <activity
+            android:name=".marine"
+            android:exported="false" />
+        <activity
+            android:name=".wraithsc2"
+            android:exported="false" />
+        <activity
+            android:name=".wraithbw"
+            android:exported="false" />
+        <activity
+            android:name=".wraith"
+            android:exported="false" />
+        <activity
+            android:name=".mediv"
+            android:exported="false" />
+        <activity
+            android:name=".medicsc2"
+            android:exported="false" />
+        <activity
+            android:name=".medicbw"
+            android:exported="false" />
+        <activity
+            android:name=".medic"
+            android:exported="false" />
+        <activity
+            android:name=".maroder"
+            android:exported="false" />
+        <activity
+            android:name=".scvsc2"
+            android:exported="false" />
+        <activity
+            android:name=".scvbw"
+            android:exported="false" />
+        <activity
+            android:name=".scv"
+            android:exported="false" />
+        <activity
+            android:name=".bcsc2"
+            android:exported="false" />
+        <activity
+            android:name=".bcbw"
+            android:exported="false" />
+        <activity
+            android:name=".bc"
+            android:exported="false" />
+        <activity
+            android:name=".reaper"
+            android:exported="false" />
+        <activity
+            android:name=".goliathsc2"
+            android:exported="false" />
+        <activity
+            android:name=".goliathbw"
+            android:exported="false" />
+        <activity
+            android:name=".goliath"
+            android:exported="false" />
+        <activity
+            android:name=".hercules"
+            android:exported="false" />
+        <activity
+            android:name=".hellion"
+            android:exported="false" />
+        <activity
+            android:name=".mira"
+            android:exported="false" />
+        <activity
+            android:name=".raven"
+            android:exported="false" />
+        <activity
+            android:name=".viking"
+            android:exported="false" />
+        <activity
+            android:name=".valkyrie"
+            android:exported="false" />
+        <activity
+            android:name=".banshee"
+            android:exported="false" />
+        <activity
+            android:name=".aspid"
+            android:exported="false" />
+        <activity
+            android:name=".protoss"
+            android:exported="false" />
+        <activity
+            android:name=".terran"
+            android:exported="false" />
+        <activity
+            android:name=".zerg"
+            android:exported="false" />
+        <activity
             android:name=".duranzerg"
             android:exported="false" />
         <activity
