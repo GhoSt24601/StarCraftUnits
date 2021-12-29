@@ -1,0 +1,1026 @@
+<?xml version = "1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center|fill"
+    android:background="@drawable/fon815"
+    tools:context=".spectre">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:scrollbarThumbVertical="@drawable/scroll2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ФРАЗЫ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec1"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec2"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec3"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec4"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec5"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec6"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="НАЖАТИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec7"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec8"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec9"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec10"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec11"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec12"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec13"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ДЕЙСТВИЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec14"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bspec15"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec16"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec17"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec18"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bspec19"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="АТАКА"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec20"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bspec21"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec22"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec23"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec24"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bspec25"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec26"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec27"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec28"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ПОМОЩЬ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec29"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ВОЗРОЖДЕНИЯ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec30"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageView
+                    android:id="@+id/bspec31"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec32"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="СМЕРТИ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec33"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec34"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec35"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec36"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec37"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec38"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec39"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:fontFamily="@font/eurostileextendedmedium"
+                    android:gravity="center"
+                    android:shadowColor="@color/text_shadow"
+                    android:shadowDx="7"
+                    android:shadowDy="6"
+                    android:shadowRadius="1"
+                    android:text="ОСТАЛЬНОЕ"
+                    android:textColor="#FFFFFF"
+                    android:textSize="22sp"
+                    android:textStyle="normal"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec40"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec41"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec42"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec43"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/bspec44"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec45"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:id="@+id/bspec46"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:onClick="playSound"
+                    android:scaleType="fitStart"
+                    android:src="@drawable/specsel"
+                    app:layout_constraintEnd_toStartOf="@+id/bkerrbw2"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="OnClick,SpeakableTextPresentCheck,DuplicateClickableBoundsCheck"/>
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/pnull"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

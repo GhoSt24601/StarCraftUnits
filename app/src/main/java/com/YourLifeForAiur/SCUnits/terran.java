@@ -67,6 +67,70 @@ public class terran extends AppCompatActivity {
                 terran = new Intent(this, maroder.class);
                 startActivity(terran);
                 break;
+            case R.id.bmed:
+                terran = new Intent(this, medic.class);
+                startActivity(terran);
+                break;
+            case R.id.bmediv:
+                terran = new Intent(this, mediv.class);
+                startActivity(terran);
+                break;
+            case R.id.bwraith:
+                terran = new Intent(this, wraith.class);
+                startActivity(terran);
+                break;
+            case R.id.bmarin:
+                terran = new Intent(this, marine.class);
+                startActivity(terran);
+                break;
+            case R.id.bves:
+                terran = new Intent(this, vessel.class);
+                startActivity(terran);
+                break;
+            case R.id.bfir:
+                terran = new Intent(this, firebat.class);
+                startActivity(terran);
+                break;
+            case R.id.btank:
+                terran = new Intent(this, tank.class);
+                startActivity(terran);
+                break;
+            case R.id.blib:
+                terran = new Intent(this, liberator.class);
+                startActivity(terran);
+                break;
+            case R.id.bgh:
+                terran = new Intent(this, ghost.class);
+                startActivity(terran);
+                break;
+            case R.id.bghfem:
+                terran = new Intent(this, ghostfem.class);
+                startActivity(terran);
+                break;
+            case R.id.btroo:
+                terran = new Intent(this, trooper.class);
+                startActivity(terran);
+                break;
+            case R.id.bvul:
+                terran = new Intent(this, vulture.class);
+                startActivity(terran);
+                break;
+            case R.id.bthor:
+                terran = new Intent(this, thor.class);
+                startActivity(terran);
+                break;
+            case R.id.bds:
+                terran = new Intent(this, dropship.class);
+                startActivity(terran);
+                break;
+            case R.id.bspec:
+                terran = new Intent(this, spectre.class);
+                startActivity(terran);
+                break;
+            case R.id.bcyc:
+                terran = new Intent(this, cyclone.class);
+                startActivity(terran);
+                break;
         }
     }
 }

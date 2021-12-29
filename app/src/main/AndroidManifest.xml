@@ -10,6 +10,45 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Design.NoActionBar">
         <activity
+            android:name=".cyclone"
+            android:exported="false" />
+        <activity
+            android:name=".spectre"
+            android:exported="false" />
+        <activity
+            android:name=".dropship"
+            android:exported="false" />
+        <activity
+            android:name=".thor"
+            android:exported="false" />
+        <activity
+            android:name=".vulturesc2"
+            android:exported="false" />
+        <activity
+            android:name=".vulturebw"
+            android:exported="false" />
+        <activity
+            android:name=".vulture"
+            android:exported="false" />
+        <activity
+            android:name=".trooper"
+            android:exported="false" />
+        <activity
+            android:name=".ghostfem"
+            android:exported="false" />
+        <activity
+            android:name=".ghostsc2"
+            android:exported="false" />
+        <activity
+            android:name=".ghostbw"
+            android:exported="false" />
+        <activity
+            android:name=".ghost"
+            android:exported="false" />
+        <activity
+            android:name=".liberator"
+            android:exported="false" />
+        <activity
             android:name=".tanksc2"
             android:exported="false" />
         <activity
